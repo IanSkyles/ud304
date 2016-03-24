@@ -1,6 +1,5 @@
-* {
-	outline: 1px solid red !important;
-}
+/* put boxes around everything*/
+/* * {	outline: 1px solid red !important; } */
 
 *{
 	-webkit-box-sizing: border-box;
