@@ -24,12 +24,12 @@ Also, I learned about responsive design techniques, which are increasingly impor
 ##Course Syllabus
 ###Lesson 1 - From Design to Code
 
-Diligently employ a code/test/refine strategy as you precisely and deliberately translate initial design documents into static web pages. You'll also investigate the Document Object Model (DOM) and its implications for web development.
+Diligently employed a code/test/refine strategy as I precisely and deliberately translated initial design documents into static web pages. I also investigated the Document Object Model (DOM) and its implications for web development.
 
 ###Lesson 2 - Your Own Framework
 
-Take pride in creating and personalising your own multi-platform, responsive CSS framework for publishing your professional portfolio projects to the web.
+Took pride in creating and personalising my own multi-platform, responsive CSS framework for publishing my professional portfolio projects to the web.
 
 ###Lesson 3 - Learning and Using Bootstrap
 
-Strategically investigate an existing professional CSS framework as you use it to build a website using responsive design principles while maintaining code readability.
+Strategically investigated an existing professional CSS framework as I used it to build a website using responsive design principles while maintaining code readability.
