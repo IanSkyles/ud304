@@ -24,11 +24,15 @@ p {
 	margin-bottom: 5px;
 	margin-left: 0px;
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .row {
 	width: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;	
 }
 
 .rightWrapper {
@@ -57,4 +61,16 @@ p {
 .col-4-end {
 	width: 33.33%;
 	text-align: center;
+}
+
+/* SEPARATOR*/
+.separator {
+	height: 5px;
+	background-color: #BCBBBB;
+	margin-bottom: 13px;
+}
+
+.col-12 {
+    display: block;
+    margin: 0 auto;
 }

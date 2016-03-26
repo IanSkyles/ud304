@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<meta charset="utf-8">
+	<!--Tell it to use bootstrap style  css -->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!--Tell our website to use bootstrap and jquery (give them location in folder)-->
+  	<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+
+	<body>
+	  	<div class = "container">
+		    <div class = "row">
+		    	<!--This is the image icon below-->
+		    	<div class ="col-md-6">
+<!--				<img src="http://placehold.it/100x100">	-->
+					<img src="img/piglogo.jpg">
+		    	</div>
+		    	<!--This is the name and title -->
+		    	<div class ="col-md-6 text-right text-uppercase">
+			    	<h1>Ian Skyles</h1>
+			        <h3>BS in Computer Science</h3>
+			    </div>
+			</div>
+			<!-- This row contains our large banner style image -->
+		    <div class = "row">
+		    	<div class = "col-md-12">
+		    	<!-- src="http://placehold.it/1140x350" -->
+		    		<img src="img/freshTomatoes.jpg" class = "img-responsive" alt = "Responsive Image">
+		    	</div>	      
+		    </div>
+		    <!--A row for the featured work text -->
+		    <div class ="row">
+		    	<div class = "col-md-12">
+		    		<h2>Featured Work</h2>
+		    	</div>	      
+		    </div>
+		    <!-- First row of projects -->
+		    <div class = "row">
+		    	<div class = "col-md-6">
+		    	<!-- src="http://placekitten.com/555/300" -->
+		      		<img src="img/technicalPaper.jpg" class = "img-responsive" data-toggle="modal" data-target="#project1">
+		        	<h3>Tecnical Paper</h3>
+		        	<p>
+		        		<a href="http://github.com">Link to project</a>
+		        	</p>
+		      	</div>
+		    	<div class = "col-md-6">
+		    	<!-- src="http://placekitten.com/555/300" -->
+		    		<img src="img/powerpaint.jpg" class = "img-responsive" data-toggle="modal" data-target="#project2">
+		        	<h3>PowerPaint</h3>
+		        	<p>
+		        		<a href="http://github.com">Link to project</a>
+		        	</p>
+		    	</div>
+		    </div>
+		    <!-- Second row of projects -->
+		    <div class = "row">
+		    	<div class = "col-md-6">
+		    	<!-- src="http://placekitten.com/555/300" -->
+		        	<img src="img/freshTomatoesTwo.jpg" class = "img-responsive" data-toggle="modal" data-target="#project3">
+		        	<h3>Favorite Tomatoes Movie Website</h3>
+		        	<p><a href="http://github.com">Link to project</a></p>
+		    	</div>
+		    	<div class = "col-md-6">
+		    		<!--- <img src="http://placekitten.com/555/300" > -->
+		    		<img class="img-responsive" src="img/tetris.jpg" class = "img-responsive" data-toggle="modal" data-target="#project4">
+		        	<h3>Tetris in Java</h3>
+		        	<p><a href="http://github.com">Link to project</a></p>
+		      </div>
+		    </div>
+		</div>
+
+		<!-- Modal for project one -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		    			<h4 class="modal-title" id="myModalLabel">Technical Paper</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="http://placehold.it/555x300">
+		        		This was a midterm assignment during my senior year at University
+		        		of Washington - Tacoma. After learning a least the basic if not
+		        		more about all three of these languages, I wanted to have a
+		        		more concise look at the pros and cons of each one. In this
+		        		paper I cover program organization, code organization,
+		        		compilation vs interpretation, basic syntax, and built-in
+		        		data types of each language and make comparisons between them.
+		      		</div>
+		      		<div class="modal-footer">
+		    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+			</div>
+		</div>
+
+		<!-- Modal for project one -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		    			<h4 class="modal-title" id="myModalLabel">PowerPaint</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="http://placehold.it/555x300">
+		        		I made this project during my time at University of Washington - Tacoma
+		        		using Java and Java's swing. Imitation of Microsoft Paint. The
+		        		drawing application enables users to draw shapes and freehand
+		        		in various colors and thicknesses. The user can undo and 
+		        		parts of their drawing. Drawings are savable and openable.
+						Used: Java, MVC design, Swing, SVN / Subversion
+		      		</div>
+		      		<div class="modal-footer">
+		    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+			</div>
+		</div>
+
+		<!-- Modal for project three -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		    			<h4 class="modal-title" id="myModalLabel">Movie Website</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="http://placehold.it/555x300">
+		        		I made this project for the Programming Foundations with Python (UD036)
+		        		 offered by Udacity.
+		        		Server-side code written in Python to store a list of my favorite movies,
+		        		including box art imagery and a movie trailer URL. This data is then served
+		        		to a web page using HTML and CSS allowing visitors to watch the trailers.
+						Used: Python 2.7, Git
+		      		</div>
+		      		<div class="modal-footer">
+		    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+			</div>
+		</div>
+
+		<!-- Modal for project four -->
+		<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+		    	<div class="modal-content">
+		    		<div class="modal-header">
+		    			<h4 class="modal-title" id="myModalLabel">Tetris</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="http://placehold.it/555x300">
+		        		I made this project during my time at University of Washington - Tacoma using Java and Java's swing.
+		        		Basic Tetris with standard features such as scoring, pausing, and a difficulty that increases over time.
+						Built the frontend (view and controller) for a model provided by my instructor.
+						Used: Java, SVN / Subversion, observer design pattern, Swing, SVN / Subversion
+		      		</div>
+		      		<div class="modal-footer">
+		    			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+			</div>
+		</div>
+	</body>
+</html>
