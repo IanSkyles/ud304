@@ -1,1 +1,30 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+	background-color: white;
+}
 
+.text-muted {
+	color: #BCBBBB;
+}
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.modal-text {
+	color:blue;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+h4 {
+	text-align: center;
+}
