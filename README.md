@@ -6,7 +6,7 @@ I was able to practice taking several website mock ups from 0 to fully working w
 ##Why I took this course
 Front-end Web Developers must have a fundamental understanding of HTML and CSS, which I accomplished in this course by converting digital design mockups into static web pages. To build the web pages I used HTML, CSS and Bootstrap, the popular Twitter CSS framework.
 
-After completing this course I am now able to build a responsive portfolio site with my own CSS framework. I also have the functionality in place to add future projects to your portfolio. Most importantly, I have an understanding of the DOM and how HTML, CSS, and JavaScript relate to each other.
+After completing this course I am now able to build a responsive portfolio site with my own CSS framework. I also have the functionality in place to add future projects to my portfolio. Most importantly, I have an understanding of the DOM and how HTML, CSS, and JavaScript relate to each other.
 
 ##Course Summary
 HTML and CSS are markup languages and the building blocks that make up the web. This course is called "Not your Typical Intro" because it does not follow the usual pattern of other courses and tutorials that you find on the Internet. Usually HTML and CSS are taught with a focus on language syntax. But knowing syntax alone does not enable you to create a webpage from a design. You need to know where to start and how to approach the task, in other words - you need to learn how to think like a front-end developer.  
